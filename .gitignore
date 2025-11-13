@@ -1,0 +1,32 @@
+# Ignore video files and the folder containing original videos
+videos_originais/
+*.mpg
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.flv
+*.wmv
+
+# Ignore CSV and spreadsheet files
+*.csv
+*.xlsx
+*.xls
+
+# Python-related ignores
+__pycache__/
+*.py[cod]
+*.pyo
+env/
+venv/
+.env
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+*.tmp
+.cache
